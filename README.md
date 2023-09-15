@@ -12,3 +12,5 @@ The code has next dependencies:
 - matplotlib   (for notebooks)
 - biopython   (for PDB processing)
 - scipy  (solely for cdist(..) fucntion)
+
+Also contains C source code of repaired version of PULCHRA program, which allows to restore all atoms (except some hydrogens) from protein backbone (alpha carbons).
