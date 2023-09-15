@@ -7,8 +7,8 @@ Two folders containing PKLs of trained networks and ZIP with should be availible
 The code has next dependencies:
 - numpy
 - torch
-- pytorch-lightning <pre>  (better pre 2.0.0, Lightning often regress)</pre>
+- pytorch-lightning   (better pre 2.0.0, Lightning often regress)
 - pytorch-msssim
-- matplotlib <pre>  (for notebooks)</pre>
-- biopython <pre>  (for PDB processing)</pre>
-- scipy <pre>  (solely for cdist(..) fucntion)</pre>
+- matplotlib   (for notebooks)
+- biopython   (for PDB processing)
+- scipy  (solely for cdist(..) fucntion)
