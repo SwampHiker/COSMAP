@@ -74,7 +74,7 @@ class FG_Pipeline(pl.LightningModule):
         super().__init__()
         self.train_set = None if train_pkl is None else FG_Dataset(train_pkl)
         self.valid_set = None if valid_pkl is None else FG_Dataset(valid_pkl)
-        self.model = rct.CosMaP_AutoEncode() #rct.CosMaP_Design()
+        self.model = None # rct.CosMaP_AutoEncode() #rct.CosMaP_Design()
         if not self.train_set is None:
             self.train_load = DataLoader(self.train_set, batch_hp, num_workers=workers_hp, pin_memory=False)
         if not self.valid_set is None:
